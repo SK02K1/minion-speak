@@ -2,6 +2,7 @@
 
 :root {
     --font: 'Manrope', sans-serif;
+    --bg-color: #FCFBFC;
     --primary-color: #FFD55E;
 }
 
@@ -12,6 +13,7 @@
 }
 
 body {
+    background: var(--bg-color);
     font-family: var(--font);
 }
 
