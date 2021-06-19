@@ -50,3 +50,10 @@ p {
     border-radius: 5px;
     background-color: var(--primary-color);
 }
+
+.img-minion {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
