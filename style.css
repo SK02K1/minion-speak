@@ -93,3 +93,41 @@ footer {
 .message a {
     color: aqua;
 }
+
+
+
+@media screen and (min-width:566px) {
+
+    .img-minion {
+        width: 30%;
+    }
+
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:934px) {
+
+    .img-minion {
+        width: 20%;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width:1152px) {
+
+    .img-minion {
+        width: 15%;
+    }
+
+    .container {
+        width: 40%;
+    }
+
+}
+
