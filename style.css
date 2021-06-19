@@ -2,6 +2,7 @@
 
 :root {
     --font: 'Manrope', sans-serif;
+    --primary-color: #FFD55E;
 }
 
 * {
@@ -17,6 +18,11 @@ body {
 h1 {
     margin: 1rem;
     text-align: center;
+    font-size: 2.4rem;
+}
+
+p {
+    text-align: center;
 }
 
 .container {
@@ -27,4 +33,14 @@ h1 {
     display: block;
     margin: 1rem auto;
     padding: 1rem;
+}
+
+.btn {
+    display: block;
+    margin: .5rem auto;
+    padding: .5rem 1.5rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--primary-color);
 }
