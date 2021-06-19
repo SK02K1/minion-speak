@@ -35,6 +35,11 @@ p {
     padding: 1rem;
 }
 
+::placeholder {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 .btn {
     display: block;
     margin: .5rem auto;
